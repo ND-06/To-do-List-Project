@@ -6,8 +6,7 @@ body {
   margin: 0 auto;
 }
 
-#container {
-  max-width: 768px; 
+#container { 
   width: 360px; 
   margin: 100px auto; /*margin 0 auto is THE BEST TRICK TO CENTER AN ELEMENT OR A DIV */
   margin-top: 50px;
