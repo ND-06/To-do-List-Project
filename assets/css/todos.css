@@ -9,10 +9,10 @@ body {
 #container {
   max-width: 768px; 
   width: 360px; 
-  border: 2px solid grey;
-  margin: 0 auto; /*IT IS THE BEST TRICK TO CENTER AN ELEMENT OR A DIV */
+  margin: 100px auto; /*margin 0 auto is THE BEST TRICK TO CENTER AN ELEMENT OR A DIV */
   margin-top: 50px;
-  background-color: white;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .checked {
@@ -21,13 +21,58 @@ body {
   opacity: 0.5;
 }
 
-span {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n){
+  background-color: #f7f7f7;
+}
+
+/* li:nth-child(2n) allows us to select just one li every two li's ( no specified bg color for the one 
+ and bg color applied for the second etc) */
+
+h1 {
+  color: white;
+  background-color: #2980b9;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  border: none;
+} 
+
+.fa-plus {
+  float: right;
+} 
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  color: #2980b9;
+  box-sizing: border-box;
+  border: none;
+}
+
+input:focus {
+  background-color: white;
+  border: 2px solid #2980b9;
+  outline: none;
 }
 /*
-h1, h2 {
-  color: white;
-}
+
 
 
  i {
@@ -44,14 +89,8 @@ h1, h2 {
   display: none;
 }
 
-input {
-  width: 100%;
-  margin-left: 0px;
-}
 
-ul li {
-  list-style: none;
-  color: white;
-}
+
+
 
 */ 

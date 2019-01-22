@@ -60,6 +60,6 @@ $('input[type="text"]').on('keypress', function(event) {
     // to create a new element, we can use append method , first we select where we want to include our
     // new element ( ul for us), we write .append(), inside parenthesis , we can add html content that we 
     // want to add ( a string of html)
-    $('ul').append('<li><span>X</span>' + ' ' + todoText + '</li>');
+    $('ul').append('<li><span><i class="fas fa-trash"</i></span>' + ' ' + todoText + '</li>');
   }
 });
