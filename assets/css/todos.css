@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0 auto;
+}
+
+#container {
+  max-width: 768px; 
+  width: 360px; 
+  border: 2px solid grey;
+  margin: 0 auto; /*IT IS THE BEST TRICK TO CENTER AN ELEMENT OR A DIV */
+  margin-top: 50px;
+  background-color: white;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.5;
+}
+
+span {
+
+}
+/*
+h1, h2 {
+  color: white;
+}
+
+
+ i {
+  float: right;
+  margin-top: 5px; 
+}
+
+#header {
+  height: 40px;
+  background-color: #232323;
+}
+
+.hide {
+  display: none;
+}
+
+input {
+  width: 100%;
+  margin-left: 0px;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+}
+
+*/ 
